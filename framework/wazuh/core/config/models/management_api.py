@@ -4,7 +4,7 @@ from pydantic import PositiveInt, Field
 from typing import List
 from enum import Enum
 
-from api.constants import API_SSL_PATH
+from server_management_api.constants import API_SSL_PATH
 from wazuh.core.config.models.base import WazuhConfigBaseModel
 from wazuh.core.config.models.ssl_config import APISSLConfig
 from wazuh.core.config.models.logging import APILoggingConfig
